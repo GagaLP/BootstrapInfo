@@ -1,9 +1,6 @@
-body {
-    padding-top: 54px;
-}
-
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
+.card{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    height: 600px;
 }
