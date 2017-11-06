@@ -42,3 +42,47 @@ a {
 a:hover {
     color: lightgrey;
 }
+
+.gradHome {
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, red, yellow);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, red, yellow);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, yellow);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, red, yellow);
+    /* Standard syntax */
+}
+
+.gradBlog {
+    background: #007558;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #007558, #00FF33);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #007558, #00FF33);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #007558, #00FF33);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #007558, #00FF33);
+    /* Standard syntax */
+}
+
+.gradAboutUS {
+    background: #0066ff;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #0066ff, #00ffdd);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0066ff, #00ffdd);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0066ff, #00ffdd);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0066ff, #00ffdd);
+    /* Standard syntax */
+}
+
+.headerSpacing {
+    height: 400px;
+    margin-bottom: 40px;
+}
