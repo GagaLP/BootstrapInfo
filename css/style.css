@@ -27,20 +27,17 @@ footer {
     padding-top: 50px;
 }
 
-.link {
+a:link, a:visited {
     color: white;
-}
-
-.link:hover {
-    color: lightgrey;
-}
-
-a {
-    color: white;
+    display: inline-block;
 }
 
 a:hover {
     color: lightgrey;
+}
+
+a:active, a:focus {
+    outline: none;-moz-outline-style: none;
 }
 
 .gradHome {
